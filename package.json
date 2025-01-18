@@ -1,0 +1,21 @@
+{
+  "name": "node-ts",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "description": "node-ts",
+  "keywords": [
+    "node",
+    "typescript"
+  ],
+  "engines": {
+    "npm": ">=11.0.0",
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --experimental-transform-types src/helloworld.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7"
+  }
+}
