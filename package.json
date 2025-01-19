@@ -13,9 +13,15 @@
     "node": ">=22.13.0"
   },
   "scripts": {
-    "test": "node --experimental-transform-types src/helloworld.ts"
+    "test": "node --experimental-transform-types src/helloworld.ts",
+    "lint": "eslint . && tsc --noEmit"
   },
   "devDependencies": {
-    "@types/node": "^22.10.7"
+    "@eslint/js": "^9.18.0",
+    "@types/node": "^22.10.7",
+    "eslint": "^9.18.0",
+    "globals": "^15.14.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0"
   }
 }

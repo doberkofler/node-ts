@@ -1,1 +1,1 @@
-export const log = (message: any, ...optionalParams: any[]): void => console.log(message, optionalParams);
+export const log = (...args: unknown[]): void => console.log(...args);
